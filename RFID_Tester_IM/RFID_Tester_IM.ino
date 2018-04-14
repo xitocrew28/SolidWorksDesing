@@ -25,8 +25,8 @@ MFRC522 mfrc522(SDA_PIN, RST_PIN);
 
 int timer = 50;
 
-String sn = "Ix01170158"; // Aqui grabamos el serial del Validador
-String ver = "V0.10";     // Aqui es la version del sketch
+String sn = "Ix01170007"; // Aqui grabamos el serial del Validador
+String ver = "V0.14";     // Aqui es la version del sketch
 char i = '\0';
 
 void setup() 
